@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <link rel="shortcut icon" href="assets/img/logo.png" type="Gabriel Bandasz" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Portifólio - Gabriel Bandasz</title>
+</head>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-toggle" hidden />
+  <label for="theme-toggle" class="theme-label" aria-label="Alternar tema">
+    <span class="theme-icon">🌙</span>
+  </label>
+</div>
+
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      
+      <a href="index.html" class="nav__logo"><img src="assets/img/logo-ntn.png" alt="Logo" /></a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+          <li><a href="#about" class="nav__link">Sobre Mim</a></li>
+
+          <li><a href="#services" class="nav__link">Serviços</a></li>
+
+          <li><a href="#portfolio" class="nav__link">Portifólio</a></li>
+
+          <li><a href="#contact" class="nav__link">Contato</a></li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ui uil-times"></i>
+        </div>
+      </div>
+
+      <div class="nav__socials">
+        <a href="https://br.linkedin.com/in/gabriel-prade-bandasz-1a3644316?trk=public_profile_samename-profile"
+          target="_blank" class="nav__social-link">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com/gabrielbandasz/ " target= _blank" class="nav__social-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://github.com/gabrielbandasz" target="_blank" class="nav__social-link">
+          <i class="uil uil-github"></i>
+        </a>
+      </div>
+
+
+
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          
+          <h1 class="home__title">
+            Olá, Eu sou Gabriel Bandasz
+            <span>Desenvolvedor Full-Stack</span>
+
+          </h1>
+
+          <a href="assets/img/Currículo - Gabriel Prade Bandasz.pdf" download>
+            <button class="btn home__curriculo">Baixar
+              <i class="uil uil-download-alt curriculo__icon"></i>
+            </button>
+          </a>
+        </div>
+
+
+        <img src="assets/img/home.png" alt="" class="home__img" />
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="assets/img/about.png" alt="" class="about__img" />
+
+        <div class="about__content">
+          <h2 class="section__title">Sobre Mim</h2>
+
+          <p class="about__description">
+            Sou um estudante dedicado do Colégio ULBRA São Lucas, imerso no universo da tecnologia enquanto curso
+            Técnico em Informática. Com uma sólida experiência em desenvolvimento Full-Stack, tenho habilidades em HTML,
+            CSS, JavaScript, Java e SQL. Além disso, possuo conhecimentos em UI e UX, sempre buscando melhorar a
+            experiência do usuário. Combinando minha paixão pelo design com a capacidade técnica, estou sempre em busca
+            de aprimorar minhas competências e enfrentar novos desafios, pronto para contribuir de forma significativa
+            para projetos inovadores e impactantes no futuro.
+          </p>
+
+          <div class="tabs__btns">
+            <span class="tabs__btn tab__active" data-target="#skills">Habilidades principais</span>
+            <span class="tabs__btn" data-target="#experience">Soft Skills</span>
+            <span class="tabs__btn" data-target="#education">Formação Acadêmica</span>
+          </div>
+
+          <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Criação de Banco de Dados</span>
+                  <span>Modelagem e introdução ao SQL.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Criação de Sites</span>
+                  <span>HTML, CSS e javascript.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Lógica de programação e programação orientada a objetos
+                  </span>
+                  <span>Java.</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Trabalho em Equipe</span>
+                  <span>Colaboração eficaz em projetos escolares e acadêmicos.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Capacidade de Comunicação</span>
+
+                  <span>Clareza ao apresentar ideias e soluções.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Organização</span>
+                  <span>Habilidade em gerenciar prazos e múltiplas tarefas de forma eficiente.
+                  </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Resolução de Problemas</span>
+                  <span>Pensamento lógico para enfrentar desafios técnicos.
+                  </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Aprendizado Contínuo</span>
+                  <span>Interesse em novas tecnologias e capacidade de adaptação.
+                  </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Dedicação</span>
+                  <span>Comprometimento contínuo para alcançar resultados de excelência em projetos escolares e
+                    acadêmicos.
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Ensino Médio</span> - Técnico em Informática
+                  <span>Colégio ULBRA São Lucas (2023 - atual)
+                  </span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Ensino Médio</span> - Instituto de Educação Gustavo Nordlund
+                  <span>(2023 - atual)</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Curso de Inglês</span> - Particular
+                  <span>(2025 - atual)</span>
+                </p>
+
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="services">
+      <h2 class="section__title">Meus Serviços</h2>
+      <p class="section__description">Estou a procura de novas experiências</p>
+
+     
+      </div>
+    </section>
+
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Meus Projetos</h2>
+      <p class="section__description">
+        Segue abaixo alguns trabalhos feitos por mim e em equipe.
+      </p>
+
+      <div class="portfolio__container container grid">
+
+        <a href="https://github.com/gabrielbandasz/CSL-Cadastro-de-Usuarios-e-Produtos" target="_blank">
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-1.jpeg" alt="" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Clientes e Produtos </p>
+              <h3 class="portfolio__title">Sistema De Cadastro</h3>
+              <p class="portfolio__description">
+                Sistema especializado em cadastro de clientes e produtos.
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/gabrielbandasz/Projeto-Halak" target="_blank">
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Clientes e Pedidos</p>
+              <h3 class="portfolio__title">Sistema</h3>
+              <p class="portfolio__description">
+                Sistema especializado em cadastro de clientes e pedidos.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="https://www.portalvcensinos.com.br/index.html" target="_blank">
+          <div class="portfolio__item">
+            <img src="assets/img/image.png" alt="" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Site Escolar</p>
+              <h3 class="portfolio__title">Portal VCensinos</h3>
+              <p class="portfolio__description">
+                Site institucional do Colégio ULBRA São Lucas.
+              </p>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h2 class="section__title">Entre em contato</h2>
+
+          <p class="contact__description">
+            Estou disponível para trabalho autônomo. Conecte-se comigo pelo
+            telefone: <a
+              >(51)99706-7875</a>
+            ou
+            e-mail:
+            <a >mauriciobandasz@gmail.com</a>
+          </p>
+
+         
+        </div>
+
+        <img src="assets/img/contact.png" alt="" class="contact__img" />
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo"><img src="assets/img/logo-ntn.png" alt="Logo" /></a>
+
+      <div class="footer__socials">
+        <a href="https://br.linkedin.com/in/gabriel-prade-bandasz-1a3644316?trk=public_profile_samename-profile" target="_blank" class="footer__social-link">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com/gabrielbandasz/ " target="_blank" class="footer__social-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://github.com/gabrielbandasz" target="_blank" class="footer__social-link">
+          <i class="uil uil-github"></i>
+        </a>
+      </div>
+
+      <p class="footer__copyright">&copy; 2025. Todos os direitos reservados por <a href="https://github.com/gabrielbandasz"
+          target="_blank">Gabriel Bandasz</a>.</p>
+    </div>
+  </footer>
+  <!--=============== SCROLL UP ===============-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-angle-up scrollup__icon"></i>
+  </a>
+
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>
